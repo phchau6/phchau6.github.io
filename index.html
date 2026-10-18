@@ -8,9 +8,19 @@
       name="description"
       content="Academic portfolio of Jacky Pak Hei Chau — Research Assistant and Project Associate in Hong Kong working on discourse analysis, accessible communication, and AI in education."
     />
-    <title>Jacky Pak Hei Chau — Research & Academic Portfolio</title>
-    <script type="module" crossorigin src="/assets/index-DT0zzfrx.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CbZ-V-GG.css">
+    <title>Jacky Chau · Language, Accessibility & Education</title>
+    <script>
+      try {
+        const saved = localStorage.getItem('portfolio-theme');
+        document.documentElement.dataset.theme = saved === 'light' || saved === 'dark'
+          ? saved
+          : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      } catch {
+        document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-CYIBS-y7.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DF-u4BYv.css">
   </head>
   <body>
     <div id="root"></div>
