@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phchau6.github.io/sitemap.xml
